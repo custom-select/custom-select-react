@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(36, 3, 102);
+  color: white;
+  padding-top: 1px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+}
+
+.App-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 20px;
+  background-color: rgb(93, 38, 204);
+  list-style: none;
+  margin-bottom: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.App-nav-button {
+  text-transform: uppercase;
+  color: rgb(187, 155, 252);
+}
+
+.App-nav-button.is-active {
+  text-transform: uppercase;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.App-main {
+  padding: 60px 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

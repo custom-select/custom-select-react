@@ -1,0 +1,51 @@
+{
+  "name": "custom-select-react",
+  "version": "0.0.1",
+  "description": "desc",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/custom-select/custom-select-react.git"
+  },
+  "keywords": [
+    "html",
+    "select",
+    "react",
+    "react-component"
+  ],
+  "author": {
+    "name": "Custom Select",
+    "url": "https://github.com/custom-select"
+  },
+  "contributors": [
+    {
+      "name": "Marco Nucara",
+      "url": "https://github.com/nuky89"
+    },
+    {
+      "name": "Gionatan Lombardi",
+      "url": "https://github.com/gionatan-lombardi"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/custom-select/custom-select-react/issues"
+  },
+  "homepage": "https://github.com/custom-select/custom-select-react#readme",
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
