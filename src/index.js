@@ -3,10 +3,8 @@ import PropTypes from 'prop-types';
 
 class CustomSelect extends Component{
   render(){
-    const { data, vw } = this.props;
-    console.log(data);
-
-    const sty = this._Styles();
+    const { optionsTree } = this.props;
+    console.log(optionsTree);
 
     return (
       <div>Hallo World</div>
