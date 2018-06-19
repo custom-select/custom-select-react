@@ -7,10 +7,9 @@ class CustomSelect extends Component{
     console.log(optionsTree);
 
     return (
-      <div>Hallo World</div>
+      <div>Hallo Custom Select</div>
     );
   }
-
 }
 
 CustomSelect.propTypes = {
