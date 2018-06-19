@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CustomSelect from './../../src/index';
+import CustomSelect from './lib/CustomSelect';
 import optionsTree from './data';
 
 class Basic extends Component {
