@@ -23,6 +23,9 @@
 .App-nav-button {
   text-transform: uppercase;
   color: rgb(187, 155, 252);
+  background: transparent;
+  border: 0;
+  outline: none;
 }
 
 .App-nav-button.is-active {
