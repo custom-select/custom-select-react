@@ -1,5 +1,9 @@
 export default [
   {
+    label: 'Select...',
+    value: '',
+  },
+  {
     label: 'Foo',
     value: 'foo',
   },
@@ -11,26 +15,17 @@ export default [
     label: 'My Option Group',
     children: [
       {
-        label: 'Long but very long option label',
+        label: 'Long, but very long option label',
         value: 'long-option-label'
-      },
-      {
-        label: 'Nested Option Group with long label',
-        children: [
-          {
-            label: 'Cat',
-            value: 'cat',
-          },
-          {
-            label: 'Tiger',
-            value: 'tiger',
-          }
-        ],
       },
       {
         label: 'Short',
         value: 'short-option-label'
       },
     ],
+  },
+  {
+    label: 'Fuzzy',
+    value: 'fuzzy',
   },
 ]
